@@ -1,0 +1,46 @@
+extends base.pug
+
+block scripts 
+    script(src="/static/index.js")
+
+block style 
+    style 
+        include ../static/style.css
+
+block content 
+
+    section#introSection   
+        div Welcome to the J's Dance Academy 
+        div.small Eat Sleep Dance Repeat  
+    
+    section#missionSection 
+        h2 Our mission
+        div.card
+            h3 Dance Perfection 
+            div.card-box
+                div.card-img
+                    img(src="/static/img/pose1.png", alt="")
+            div.card-content
+                p This is the best dance academy of the universe
+        div.card
+            h3 Dance the way you like 
+            div.card-box
+                div.card-img
+                    img(src="/static/img/pose2.jpg", alt="")
+            div.card-content
+                p This is the best dance academy of the universe
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/img/pose3.png", alt="")
+            div.card-content
+                p This is the best dance academy of the universe
+
+    section#sponsorsSection 
+        h2 Our sponsor's
+        div#sponsors
+            img(src="/static/img/fb.png", alt="Sponser Image"  , class="spimage")
+            img(src="/static/img/google.png", alt="Sponser Image"  , class="spimage")
+            img(src="/static/img/microsoft.jpg", alt="Sponser Image"  , class="spimage")
+            img(src="/static/img/skype.png", alt="Sponser Image"  , class="spimage")

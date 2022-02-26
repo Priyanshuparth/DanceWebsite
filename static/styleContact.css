@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@200;300;400;500&family=Raleway:wght@800&family=Roboto+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h2{
+    text-align: center;
+    margin: 12px 0;
+}
+
+.container{
+    min-height: 80vh;
+    margin: 42px 0;
+    /* display: flex;
+    align-items: center;
+    flex-direction: column; */
+}
+
+.container h2{
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.myInput{
+    font-size: 14px;
+    width: 40%;
+    padding: 9px;
+    margin: 8px;
+    border: 2px solid rgb(128, 123, 123);
+    border-radius: 10px;
+    outline: none;
+}
+
+.btn{
+    padding: 8px 16px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    background: rgb(128, 123, 123);
+    cursor: pointer;
+    outline: none;
+    margin: 24px;
+}
